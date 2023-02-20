@@ -263,8 +263,8 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  color: #a43f49;
-  background-color: #fff;
+  color: #fff;
+  background-color: rgba(250, 250, 250, 0.2);
   width: 60px;
   height: 60px;
   text-align: center;
@@ -476,10 +476,20 @@ section.my-work .section-heading {
   padding: 80px 45px 50px 45px;
 }
 
+.experience-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.experience-box-info {
+  text-align: center;
+}
+
 .isotope-wrapper {
   position: relative;
   width: 100%;
   margin: auto;
+  /* height: 100%; */
 }
 
 .isotope-toolbar input[type="radio"] {
@@ -677,6 +687,15 @@ section.contact-me {
 
 #contact {
   text-align: center;
+}
+
+.tel-number {
+  color: white;
+  display: block;
+  margin: 10px;
+}
+.tel-number:hover {
+  color: #aaa;
 }
 
 @media screen and (max-width: 1680px) {
